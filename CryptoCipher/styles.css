@@ -1,0 +1,184 @@
+#title {
+    background-color: #181818;
+    background-image: url(Wingdingies.png);
+  }
+  
+  .container-fluid {
+    padding: 3% 15% 9%;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  h2
+  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  
+  .iphone6 {
+    width: 90%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 15%;
+  }
+  
+  
+  @media (max-width: 1028px) {
+  
+  body {
+    text-align: center;
+  }
+  
+  
+    .iphone6 {
+      width: 60%;
+      position: static;
+      transform: rotate(0deg);
+    }
+
+  }
+  
+  
+  .navigation {
+    margin-bottom: 60px;
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .navbar {
+    padding-left: 0;
+  }
+  
+  .tincat {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* Features */
+  #features {
+    text-align: center;
+    background-color: white;
+    position: relative;
+  }
+  
+  .f1 {
+    margin-bottom: 100px;
+  }
+  
+  .fas {
+    font-size: 4rem;
+    color: #212529;
+    margin-bottom: 10px;
+  }
+  
+  .fas:hover {
+    color: #212529;
+  }
+  
+  .fontf {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .pf {
+    color: grey;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .forthefeatures {
+    padding-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  
+  /* Testimonial Sections */
+  
+  
+  
+  #testimonials {
+  
+    text-align: center;
+    background-color:#212529;
+    color: white;
+    background-image: url(binary.png);
+  }
+  
+  .carousel-item {
+      padding: 7% 15%;
+  }
+  
+  /* Discounteds */
+  
+  #discounts{
+    padding:100px;
+    text-align: center;
+  }
+  
+  .padding-column {
+    padding: 2% 3%;
+  }
+  .shirt {
+    width: 50%;
+  }
+  
+  
+  /* Call to Action */
+  
+  #cta {
+  text-align: center;
+  padding: 9% 19%;
+  background-color: #212529;
+  background-image: url(Wingdingies.png);
+  }
+  
+  
+  .ctah3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .ctabtn {
+   margin-top: 5%;
+   margin-left: 2%;
+  }
+  
+  
+  /* Footer */
+  
+  
+  #footer {
+   text-align: center;
+  padding: 5% 10%;
+  }
+  
+  .copyright {
+    color: grey;
+  }
+  
+  
+  .footericon {
+    margin-left: 1%;
+    padding-bottom:2%;
+  }
